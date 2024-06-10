@@ -3,7 +3,7 @@
 
 """
 This code takes in binary code and executes the given file, outputting both the registers at each cycle as well as the data path control result. Input MUST be 32 bits. 
-								python3 Project4b_Scrosati.py -in ./alpha.bin -mem ./memory.txt
+								python3 singleCycleProcessor.py -in ./alpha.bin -mem ./memory.txt
 
 """
 import os
@@ -15,7 +15,7 @@ import string
 import math
 
 parser = argparse.ArgumentParser( 
-prog = 'project4b',
+prog = 'singleCycleProcessor',
 description = 'Single Cycle Proccessor',
 )
 parser.add_argument("-in", dest = 'input', required=True) # input argument
