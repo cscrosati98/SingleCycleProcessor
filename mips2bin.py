@@ -16,8 +16,8 @@ import string
 import math
 
 ##parser = argparse.ArgumentParser( 
-##prog = 'project3',
-##description = 'Single Cycle Processor',
+##prog = 'mips2bin',
+##description = 'MIPs Assembly to Binary',
 ##)
 ##parser.add_argument("--file", dest = 'input', required=True) # input argument
 ##parser.add_argument("-output", dest = 'output', required=True) # input argument
